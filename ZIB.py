@@ -3855,7 +3855,7 @@ while (True == doProtect):
         s.settimeout(240)
         if useSSL == True:
             ssl.wrap_socket(s)
-        s.connect(ircServer.split(":")[0], float(ircServer.split(":")[1]))
+        s.connect((ircServer.split(":")[0], float(ircServer.split(":")[1])))
         nick = getnick()
         s.send("USER ZIB ZIB ZIB :ZIB\r\n")
         while 1:
