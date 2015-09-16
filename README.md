@@ -102,7 +102,7 @@ This is probably filled with terrible information, non-commented code, etc... My
 Yes, I wrote the README in 3 minutes without proof-reading. Just releasing ZIB real quick.<br>
 <h3>Contact</h3>
 Email: whitepacketweb@gmail.com<br>
-Jabber: whitepacket@yax.im<br>
+Jabber: whitepacket@xmpp.is<br>
 Twitter: @WhitePacket<br>
 BTC address: 1QASXpprwocj7Y65DghSjjgTXxrUHe6XEN<br>
 PGP key:<br>
