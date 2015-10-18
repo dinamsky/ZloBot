@@ -53,7 +53,7 @@ Completely hidden.<br>
 0/60 Fully undetectable to Antivirus.<br>
 File download/upload.<br>
 Process status, starter, and killer.<br>
-Undetectable, instant obfuscation when generating new binaries FREE!<br>
+Undetectable, instant obfuscation when generating new binaries.<br>
 Self spreading.<br>
 All bot files are verified via hash check. Broken/corrupted files get re-placed.<br>
 Bypasses AntiVirus Deep-Scan.<br>
