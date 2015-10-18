@@ -1,7 +1,7 @@
 <h3>Project</h3>
 The Open Tor Botnet (ZIB) Official Release<br>
 <h3>General information and some instructions.</h3>
-You need to use bitcoind.... I will not explain that.<br>
+You need to use bitcoind.... This is not explained here.<br>
 ZIB is fully undetectable and bypasses all antivirus by running on top of Python27's pyinstaller, which is used for many legitimate programs. The only possibility of detection comes from the script, however, the script contains randomized-looking data through using a randomized AES key and initialization vector.<br>
 ZIB.py is the main project file. It has 2 errors so nobody who isn't qualified will compile it and do something hazardous.<br>
 intel.py is the chat bot.<br>
@@ -14,18 +14,14 @@ chp.exe is required in the local dir.<br>
 For the IRC server, run bircd, set up an oper with the username Zlo and password RUSSIA!@#$RUSSIA!@#$RUSSIA!@#$RUSSIA!@#$. For the max users per ip set to 0 because tor users will look like 127.0.0.1Keep all scripts in Python27/Scripts.<br>
 Put nircmd in the local directory for editing file dates.<br>
 <h3>Credits/Attribution</h3>
-Zlo/ZIB/The Open Tor Botnet/Vladimir/DevilsAcid/Alexander<br>
 WhitePacket<br>
-Python<br>
 Socksipy<br>
 nircmd<br>
 chp<br>
-Bitcoin<br>
 Pyinstaller<br>
 That software was used in the making of this tool. No idea about their licensing so I'm crediting them anyways.<br>
-WhitePacket for unleashing the beast.<br>
 <h3>Legal</h3>
-ZIB is for legal, research purposes only. All of my writings that would be considered illegal if they were not fantasy are entirely fictional.<br>
+ZIB is for legal, research purposes only.<br>
 I won't be held responsible or liable for any damages caused by running this application.<br>
 Use this software at your own liability.<br>
 Please don't use this for malicious purposes. This was released out of good will and for the benifit of others.<br>
@@ -34,7 +30,7 @@ Don't modify/fork/profit off of this project, without proper attribution.<br>
 ZIB is a IRC-based, Bitcoin-funded bot network that runs under Tor for anonymity.<br>
 ZIB is coded totally from scratch and not built on top of someone elses source code.<br>
 ZIB uses the Department of Defense standard for encryption of Top Sercret files as one of its methods of making its binaries fully undetectable every time!<br>
-ZIB stands for Zlo is a Botnet. Zlo means evil in Russian. (actually ZIB stands for ZIB is a Botnet - a self-referencing acronym)<br>
+ZIB stands for Zib is a Botnet. A self-referencing acronym. Zlo means evil in Russian.
 ZIB creates a new binary for every user, with different file sizes, creation dates, and rot13->zlib->base64->AES-256(random key+IV) encrypted strings.<br>
 ZIB is 100% fully undetectable (FUD) to Anti-Virus.<br>
 ZIB has an automated system for handling payments, providing bot-net binaries, and creating bot-net IRC channels.<br>
@@ -78,9 +74,9 @@ Amazing error handling, install rate, detection ratio, and persistence.<br>
 Completely native malware. No .NET framework, or Python installation required!<br>
 Installs to the startup folder & AppData (registry start-up).<br>
 Kills all popular anti-virus and prevents installation. Can disable Anti-Virus which have rootkits, through deleting important A/V dlls.<br>
-BotKiller, scanner, and A/V killer are optional. You can easily run our software as a back-up for your bots, or install other malware on them as back-up. Our service is highly scale-able and isn't going anywhere.
+BotKiller, scanner, and A/V killer are optional. You can easily run our software as a back-up for your bots, or install other malware on them as back-up. This network control system is highly scale-able.
 Duel-process and duel-file based persistence. Files are processes are re-created nearly instantly, after being removed.<br>
-Steals File-Zilla logins. Great for getting SSH, and FTP logins.<br>
+Recovers File-Zilla logins. Great for getting SSH, and FTP logins.<br>
 Automatically removes some ad-ware.<br>
 Omegle spreader that spreads either a link as a cam show, or a Skype account with every line of text being completely unique to avoid detection. Waits for the user to type a message before responding with a reply. Shows typing and types human-like. Multi-threaded.<br>
 Deletes zone identifier on all bot files, Tor, download & executed files, and update files. This means that you don't get the "Would you like to run this program?" dialog, and it runs completely hidden.<br>
@@ -99,7 +95,6 @@ Commands are ran mutli-threaded and con-currently, for the most part. Your bots 
 Yes, everything still links to the original website and IRC channel. (ewww)<br>
 The default server won't accept new channels, you have to buy one to host there.<br>
 This is probably filled with terrible information, non-commented code, etc... My apologies for this work of "art".<br>
-Yes, I wrote the README in 3 minutes without proof-reading. Just releasing ZIB real quick.<br>
 <h3>Contact</h3>
 Email: whitepacketweb@gmail.com<br>
 Jabber: whitepacket@xmpp.is<br>
