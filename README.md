@@ -18,16 +18,17 @@ WhitePacket<br>
 <h3>Legal</h3>
 The Open Tor Botnet is for legal, research purposes only.<br>
 Please don't use this for malicious purposes. This was released out of good will for the benifit of others.<br>
+This bot may contain a small amount of stolen code.<br>
 <h3>Features</h3>
 ZIB is an IRC-based, Bitcoin-funded bot network that runs under Tor for anonymity.<br>
 ZIB is coded totally from scratch.<br>
-ZIB uses the Department of Defense standard for encryption of Top Sercret files as one methods of generating fully undetectable binaries every time!<br>
+ZIB uses the Department of Defense standard for encryption of Top Sercret files as one method of generating fully undetectable binaries every time!<br>
 ZIB creates a new binary for every client with varying file sizes, creation dates, and rot13->zlib->base64->AES-256(random key+IV) encrypted strings.<br>
 ZIB is fully undetectable (FUD) to Anti-Virus.<br>
 ZIB has an automated system for handling payments, providing bot-net binaries, and creating bot-net IRC channels.<br>
 All bot networks on a ZIB network require a password to join.<br>
 ZIB uses passworded user-based authentication, handled through our Zlo intelligence bot, so you don't have to worry about channel password, main password, or bot compromise. Normal users can't create their own channels. All IRC functionalities are handled by the Zlo IRC intelligence bot. You can do authenticated, single bot commands through Zlo, or set up a user session on your bots, which is slightly less secure.<br>
-Paid users get unlimited bot space per channel.<br>
+Paid users (paid in terms of sending BTC to Zlo once you set up your IRC server. This bot-net is meant to accept payments to host bots for other people, not just a single bot-net.) get unlimited bot space per channel.<br>
 Our bot has been tested on and is fully compatible with Windows Server 2008 R2 32-bit, Windows XP SP1 & SP3 32-bit, Windows 7, and Windows 8 64-bit.<br>
 <h3>Features</h3>
 Multi-threaded HTTP/s (layer7 [Methods: TorsHammer, PostIt, Hulk, ApacheKiller, Slowloris, GoldenEye]), TCP/SSL, and fine-tuned UDP flooding. Ability to flood hidden services, or attack via the clearnet. 66 randomized DDoS user-agents and referers. All methods send randomized data, bypass firewalls, filtering, and caching. ZIB also comes with FTP flood, and TeamSpeak flood.<br>
@@ -87,35 +88,4 @@ This is filled with *some* wrong information, non-commented code, etc. This is b
 Email: chris@whitepacket.com<br>
 Jabber: whitepacket@xmpp.is<br>
 Twitter: @WhitePacket<br>
-BTC address: 1QASXpprwocj7Y65DghSjjgTXxrUHe6XEN<br>
-PGP key:<br>
------BEGIN PGP PUBLIC KEY BLOCK-----<br>
-Version: GnuPG v2<br>
-<br>
-mQENBFXNfgwBCACtq4nznr/SVM57LSgeXy+DfmdBIkUTi0mCHrY2nI1ekYHHozeW<br>
-FCo1yacPx7TzGQ6wILvHvgt8yKi8ke1FAGGA7O2fCCNNJ3j7jibhWI9LSUGNa5DO<br>
-Ek3iv4UsDS+QuZq1s+4cDA6E028a17JXW1Vtq/29Oy4f8B6MiBBFfe33pIBP0/az<br>
-FZg821A2IvRo1vNDNHMKM/RkOLmGI+bzl55wFp/5r5c80z7d67hZreY99d4WiIPQ<br>
-8/rO9tgaJwq1+zciLuLErxgz13mkKbQgbQ79gbd76vcZ+FhqkKK9WstD3Qr2ZHDE<br>
-astA8cTcPYv51DZ0Zue3xsvNUsyLrVGn4PNvABEBAAG0JVdoaXRlUGFja2V0IDx3<br>
-aGl0ZXBhY2tldEBzaWdhaW50Lm9yZz6JATkEEwEIACMFAlXNfgwCGwMHCwkIBwMC<br>
-AQYVCAIJCgsEFgIDAQIeAQIXgAAKCRCyuaK7+vbuLuB+B/9vplRJNzmGx0MPiYX3<br>
-AJZiBaQAAimDDbkpz6xN+KjRJqd+z0D/TfT9CE0REscPV4APpxE8kVMUwSgOya+Q<br>
-IDzfKu1eONiBhzIB2N7xkc9TGbkbkH9OaRRZEfHmYEFHuLZvXC6ply8a3y1Nsg7c<br>
-uxbXlTCCr19Yq9TowvUFjhYcOOLYijo0ew0TReVDVquH1M6od+ijVhuT9ged0aZe<br>
-YUOg1whWFjGSToFEu4S0y4SUNo5q0x2Wn18uPQXqnKrDjiQKNsWvZUXMqh6em3RF<br>
-3Ga87IMroQYq5lzob4AwMgYKSPCKG1FTz8460xdWO8xQOIfjeIcnT7qJ3dA58dSq<br>
-2ftyuQENBFXNfgwBCADsMzQ7X1ZbibgqHzpWf/C0vBce9Arr9Mcz7yGtZqFylw+Q<br>
-mWGNRmd5sHVDXu33vDFNYLMsTJZ/7jTnpg8P/GLQC7m1GzB9dq5k0icbax7I8tRX<br>
-3Peedrvi91ST7/U2N1xm2AHRbZzdtHB07eWk1/4rcEoHUwxESqtn6FnWMZPKf2+x<br>
-8lYWipMRDrgefYTKDeOjntNsvRWqQQ5jIEHYtFBscblvyGjO4iJP2veuRlUUI2uY<br>
-Mit9KINsjwIgoJ4v+sUdZAiVZC+sXBYcO9BpXB46tBOedn9ekGeYPvZUW4B+Ae3D<br>
-F9GbkFNixgCNtSzxaygYZZUdaF+q445icm0wsIcJABEBAAGJAR8EGAEIAAkFAlXN<br>
-fgwCGwwACgkQsrmiu/r27i50+gf/f2iacXu2b+Tz5nJOjq8JHzSOKOU7IE7sjbSZ<br>
-IPnRLffMqM3/qc8viZJ2P+YMYgx9t0qz16VjUbtu/kOB0FIQ0aYVWIOGrVAJjTA1<br>
-mWsy1buztRQwd9H+DGfIZiciAYi+TCBAuyWt7ZUoiDb4gmqWDAzapbtCJXBvIO2j<br>
-7zaZbKhjBuaI42lWhJwPoXnySWRteIs4ii+oAF6+jDnUmY1M8lCr21Ukj9JUhZrM<br>
-HoZDP9YN8jXC+25hF3Z34z6jJ8W4VeI5ViL6XmreA8wB9yyjnAxG5WXv1vkhsogB<br>
-vXT/kDEIeMeXl+yI8D+nzi3J1BdSn+4Xk3WsWFcv/G/1qc2ynQ==<br>
-=++w/<br>
------END PGP PUBLIC KEY BLOCK-----
+BTC address: 1JiyTFYsubsRzwj8uCtzxRirnr33wGS5YB<br>
